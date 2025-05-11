@@ -19,10 +19,5 @@ public class InteractionConfiguration : IEntityTypeConfiguration<Interaction>
             .WithMany()
             .IsRequired()
             .HasForeignKey(v => v.PostId);
-        
-        builder.HasOne<User>()
-            .WithMany()
-            .IsRequired()
-            .HasForeignKey(v => v.UserId);
     }
 }

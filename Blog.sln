@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog", "Blog\Blog.csproj", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FDD77639-3AF6-448B-B3AF-64E8DC2579E1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedKernal", "SharedKernal", "{66A1AEE2-2B74-478D-B592-BA81180C9285}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore", "AspNetCore\AspNetCore.csproj", "{A093E740-E320-46D7-90D5-363C957885B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,8 +18,13 @@ Global
 		{21469196-57C9-4CB9-A3E3-56D2891F7F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21469196-57C9-4CB9-A3E3-56D2891F7F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21469196-57C9-4CB9-A3E3-56D2891F7F02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A093E740-E320-46D7-90D5-363C957885B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A093E740-E320-46D7-90D5-363C957885B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A093E740-E320-46D7-90D5-363C957885B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A093E740-E320-46D7-90D5-363C957885B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{21469196-57C9-4CB9-A3E3-56D2891F7F02} = {FDD77639-3AF6-448B-B3AF-64E8DC2579E1}
+		{A093E740-E320-46D7-90D5-363C957885B8} = {66A1AEE2-2B74-478D-B592-BA81180C9285}
 	EndGlobalSection
 EndGlobal

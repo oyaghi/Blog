@@ -17,7 +17,7 @@ public class Post
     
     public Tag Tag { get; set; }
 
-    public int UserId { get; set; }
+    public string UserId { get; set; }
     
     public List<Comment>? Comments { get; set; } = [];
 }

@@ -18,10 +18,5 @@ public class CommentConfiguration : IEntityTypeConfiguration<Comment>
             .WithMany()
             .IsRequired()
             .HasForeignKey(v => v.PostId);
-        
-        builder.HasOne<User>()
-            .WithMany()
-            .IsRequired()
-            .HasForeignKey(v => v.UserId);
     }
 }
